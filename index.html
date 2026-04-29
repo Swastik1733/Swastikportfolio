@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Swastik Gadekar | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">SG</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ===== HOME ===== -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-greeting">Hi, I'm</p>
+      <h1 class="hero-name">Swastik Gadekar</h1>
+      <h2 class="hero-role">
+        <span class="typed-text" id="typedText"></span><span class="cursor">|</span>
+      </h2>
+      <p class="hero-desc">
+        3rd Year BE Computer Engineering student passionate about backend development,
+        databases, and building real-world applications.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://www.linkedin.com/in/swastik-gadekar-68758436b" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/swastikgadekar" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="mailto:swastikgadekar2005@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="hero-avatar">
+      <div class="avatar-ring">
+        <div class="avatar-inner">SG</div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-down" aria-label="Scroll down">
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">About <span>Me</span></h2>
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-icon"><i class="fas fa-user-graduate"></i></div>
+          <h3>Who I Am</h3>
+          <p>
+            I'm a motivated and hardworking 3rd Year BE Computer Engineering student
+            at Savitribai Phule Pune University, Pune. I have hands-on experience in
+            Java, SQL, and MongoDB, and I'm actively learning Spring Boot and REST APIs.
+          </p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon"><i class="fas fa-bullseye"></i></div>
+          <h3>My Goal</h3>
+          <p>
+            Seeking an internship to gain industry exposure, enhance my backend
+            development skills, and contribute to real-world projects that make
+            a meaningful impact.
+          </p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon"><i class="fas fa-heart"></i></div>
+          <h3>My Strengths</h3>
+          <ul class="strength-list">
+            <li><i class="fas fa-check"></i> Fast Learner</li>
+            <li><i class="fas fa-check"></i> Hardworking & Consistent</li>
+            <li><i class="fas fa-check"></i> Good Communication</li>
+            <li><i class="fas fa-check"></i> Problem-Solving Mindset</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title">Technical <span>Skills</span></h2>
+      <div class="skills-grid">
+
+        <div class="skill-category">
+          <div class="skill-cat-icon"><i class="fas fa-code"></i></div>
+          <h3>Programming</h3>
+          <div class="skill-item">
+            <div class="skill-label"><span>Java</span><span>Intermediate</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="70%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-label"><span>C++</span><span>Basic</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="35%"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-icon"><i class="fas fa-database"></i></div>
+          <h3>Databases</h3>
+          <div class="skill-item">
+            <div class="skill-label"><span>SQL / MySQL</span><span>Good</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="65%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-label"><span>MongoDB</span><span>Good</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="60%"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-icon"><i class="fas fa-server"></i></div>
+          <h3>Web / Backend</h3>
+          <div class="skill-item">
+            <div class="skill-label"><span>REST API</span><span>Basic</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="40%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-label"><span>Spring Boot</span><span>Learning</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="25%"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-icon"><i class="fas fa-tools"></i></div>
+          <h3>Tools & Concepts</h3>
+          <div class="tags-wrap">
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">IntelliJ IDEA</span>
+            <span class="tag">OOP</span>
+            <span class="tag">Data Structures</span>
+            <span class="tag">DBMS</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title">My <span>Projects</span></h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-users"></i></div>
+          <h3>Student Record Management System</h3>
+          <p class="project-tech"><span>Java</span><span>SQL</span><span>JDBC</span><span>MySQL</span></p>
+          <ul class="project-points">
+            <li>Implemented full CRUD operations using JDBC</li>
+            <li>Uses MySQL for structured data storage</li>
+            <li>Features: add, search, update, delete student records</li>
+          </ul>
+          <a href="https://github.com/swastikgadekar" target="_blank" class="project-link">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-leaf"></i></div>
+          <h3>MongoDB CRUD Application</h3>
+          <p class="project-tech"><span>Java</span><span>MongoDB</span><span>NoSQL</span></p>
+          <ul class="project-points">
+            <li>Basic application to insert, update, delete, and search records</li>
+            <li>Demonstrates NoSQL document handling</li>
+          </ul>
+          <a href="https://github.com/swastikgadekar" target="_blank" class="project-link">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-book"></i></div>
+          <h3>Library Management System</h3>
+          <p class="project-tech"><span>Java</span><span>OOP</span><span>Console App</span></p>
+          <ul class="project-points">
+            <li>Console-based project using OOP concepts</li>
+            <li>Includes user authentication and book management</li>
+          </ul>
+          <a href="https://github.com/swastikgadekar" target="_blank" class="project-link">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section class="section section-alt" id="education">
+    <div class="container">
+      <h2 class="section-title">My <span>Education</span></h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">2023 – 2027</span>
+            <h3>BE Computer Engineering</h3>
+            <p class="timeline-org">Savitribai Phule Pune University (SPPU)</p>
+            <p>Currently in 3rd Year (TE). Focused on core CS subjects including
+               Data Structures, DBMS, OOP, and backend development.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ACHIEVEMENTS / CERTIFICATIONS ===== -->
+  <section class="section" id="achievements">
+    <div class="container">
+      <h2 class="section-title">Achievements & <span>Certifications</span></h2>
+      <div class="achieve-grid">
+
+        <div class="achieve-card cert">
+          <div class="achieve-icon"><i class="fab fa-java"></i></div>
+          <h3>Java Certification</h3>
+          <p>Certified in Java programming covering core concepts, OOP, and application development.</p>
+        </div>
+
+        <div class="achieve-card cert">
+          <div class="achieve-icon"><i class="fas fa-database"></i></div>
+          <h3>SQL & MongoDB Practice</h3>
+          <p>Completed structured practice in SQL queries and MongoDB document operations.</p>
+        </div>
+
+        <div class="achieve-card cert highlight">
+          <div class="achieve-icon"><i class="fas fa-cloud"></i></div>
+          <h3>Oracle Cloud Infrastructure 2025</h3>
+          <p>Certified Generative AI Professional — Oracle Cloud Infrastructure 2025.</p>
+          <span class="badge">OCI 2025</span>
+        </div>
+
+        <div class="achieve-card activity">
+          <div class="achieve-icon"><i class="fas fa-trophy"></i></div>
+          <h3>Project Competitions</h3>
+          <p>Participated in college-level project competitions, showcasing technical and problem-solving skills.</p>
+        </div>
+
+        <div class="achieve-card activity">
+          <div class="achieve-icon"><i class="fas fa-laptop-code"></i></div>
+          <h3>Coding Assignments</h3>
+          <p>Completed multiple coding assignments and problem-solving tasks across various domains.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESUME ===== -->
+  <section class="section section-alt" id="resume">
+    <div class="container">
+      <h2 class="section-title">My <span>Resume</span></h2>
+      <div class="resume-box">
+        <div class="resume-preview">
+          <i class="fas fa-file-pdf resume-icon"></i>
+          <div>
+            <h3>Swastik Gadekar — Resume</h3>
+            <p>BE Computer Engineering | Java | SQL | MongoDB | Spring Boot</p>
+          </div>
+        </div>
+        <a href="Swastik_Gadekar_Resume.pdf" download class="btn btn-primary resume-btn">
+          <i class="fas fa-download"></i> Download Resume
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact <span>Me</span></h2>
+      <div class="contact-grid">
+
+        <div class="contact-info">
+          <h3>Let's Connect</h3>
+          <p>I'm open to internship opportunities, collaborations, and interesting projects. Feel free to reach out!</p>
+          <div class="contact-items">
+            <a href="mailto:swastikgadekar2005@gmail.com" class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>swastikgadekar2005@gmail.com</span>
+            </a>
+            <a href="tel:+918308532648" class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span>+91-8308532648</span>
+            </a>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Pune, Maharashtra, India</span>
+            </div>
+            <a href="https://www.linkedin.com/in/swastik-gadekar-68758436b" target="_blank" class="contact-item">
+              <i class="fab fa-linkedin"></i>
+              <span>linkedin.com/in/swastik-gadekar</span>
+            </a>
+            <a href="https://github.com/swastikgadekar" target="_blank" class="contact-item">
+              <i class="fab fa-github"></i>
+              <span>github.com/swastikgadekar</span>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm" onsubmit="handleSubmit(event)">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Internship Opportunity" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your message here..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>Designed & Built by <strong>Swastik Gadekar</strong></p>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/swastik-gadekar-68758436b" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/swastikgadekar" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="mailto:swastikgadekar2005@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+      <p class="footer-copy">© 2025 Swastik Gadekar. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
